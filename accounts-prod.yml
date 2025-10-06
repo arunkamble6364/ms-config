@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+build:
+  version: v3.0
+
+accounts:
+  version: ${build.version}
+  msg: This is accounts microservice - Prod
+  contact-details:
+    email: prod@email.com
+    phone: +91 8806103629
+  callSupport:
+    -"1800-000-333"
+    -"1800-000-444"

@@ -1,0 +1,16 @@
+# spring.application.name=accounts
+# spring.datasource.url = urlName
+# spring.datasource.username = username
+
+build:
+  version: v2.0
+
+accounts:
+  version: ${build.version}
+  msg: This is accounts microservice - Local
+  contact-details:
+    email: admin@email.com
+    phone: +91 9850065843
+  callSupport:
+    -"1800-000-111"
+    -"1800-000-222"
