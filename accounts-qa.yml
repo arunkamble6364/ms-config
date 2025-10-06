@@ -5,11 +5,10 @@ spring:
 
 build:
   version: v4.0
-  name: qa activated
 
 accounts:
   version: ${build.version}
-  msg: This is accounts microservice - QA
+  msg: This is accounts microservice - QA GitHub
   contact-details:
     email: qa@email.com
     phone: +91 7782563629
