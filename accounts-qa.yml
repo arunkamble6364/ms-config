@@ -5,6 +5,7 @@ spring:
 
 build:
   version: v4.0
+  name: qa activated
 
 accounts:
   version: ${build.version}
