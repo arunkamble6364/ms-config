@@ -8,7 +8,7 @@ build:
 
 accounts:
   version: ${build.version}
-  msg: This is accounts microservice - QA GitHub 2
+  msg: This is accounts microservice - QA GitHub using Refresh actuator
   contact-details:
     email: qa@email.com
     phone: +91 7782563629
