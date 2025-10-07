@@ -4,7 +4,7 @@ spring:
       on-profile: qa
 
 build:
-  version: v500.0
+  version: v303.0
 
 accounts:
   version: ${build.version}
