@@ -4,11 +4,11 @@ spring:
       on-profile: qa
 
 build:
-  version: v150.0
+  version: v500.0
 
 accounts:
   version: ${build.version}
-  msg: This is accounts microservice - QA GitHub using Refresh actuator
+  msg: This is accounts microservice - QA GitHub using RabbitMQ
   contact-details:
     email: qa@email.com
     phone: +91 7782563629
