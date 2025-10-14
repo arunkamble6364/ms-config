@@ -8,7 +8,7 @@ build:
 
 accounts:
   version: ${build.version}
-  msg: This is accounts microservice - Local
+  msg: This is accounts microservice - Local file changes 
   contact-details:
     email: 64af2b2628016429a64555cdeb2c98f7ce24c33309286ba7949b355d5be64280
     phone: +91 9850065843
